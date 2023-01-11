@@ -1,0 +1,13 @@
+taken from HTML
+<p>
+    Look at this wonderful page! If you want a better page, check out the bonus objective.
+</p>
+
+<p>
+    Here's a flamingo:
+</p>
+
+<img src="image/flamingo.jpg" alt="It's a flamingo" class="my_image"/>
+
+<br>
+<br>

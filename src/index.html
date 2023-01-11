@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title>CSE312 Sample Front End</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+
+<h1>CSE312 Sample Page</h1>
+
+{{welcome}}
+
+<h3>Register</h3>
+<form action="/register" id="register-form" method="post" enctype="multipart/form-data">
+    <label for="text-form-username">Username: </label>
+    <input id="text-form-username" type="text" name="username"><br/>
+    <br>
+    <label for="form-password">Password: </label>
+    <input id="form-password" type="text" name="password">
+    <input type="submit" value="Register">
+ </form>
+
+ <p>
+    The requirements must include:
+    <ol>
+        <li>A minimum length of 8</li>
+        <li>At least 1 lowercase character</li>
+        <li>At least 1 uppercase character</li>
+        <li>At least 1 number</li>
+        <li>At least 1 special character</li>
+    </ol>
+</p>
+
+ <h3>Login</h3>
+ <form action="/login" id="login-form" method="post" enctype="multipart/form-data">
+     <label for="text-form-username">Username: </label>
+     <input id="text-form-username" type="text" name="username"><br/>
+     <br>
+     <label for="form-password">Password: </label>
+     <input id="form-password" type="text" name="password">
+     <input type="submit" value="Login">
+  </form>
+
+<br>
+<br>
+
+<!--
+<form action="/comment" id="comment-form" method="post" enctype="multipart/form-data">
+    <label for="text-form-name">Name: </label>
+    <input id="text-form-name" type="text" name="name"><br/>
+    <br>
+    <label for="form-comment">Comment: </label>
+    <input id="form-comment" type="text" name="comment">
+    <input value={{token}} name="xsrf_token" hidden>
+    <input type="submit" value="Submit">
+ </form>
+
+
+ <form action="/image-upload" id="image-form" method="post" enctype="multipart/form-data">
+    <label for="form-file">Image: </label>
+    <input id="form-file" type="file" name="upload">
+    <br>
+    <br>
+    <label for="image-form-name">Caption: </label>
+    <input id="image-form-name" type="text" name="name">
+    <input value={{token}} name="xsrf_token" hidden>
+    <input type="submit" value="Submit">
+ </form>
+
+<label for="chat-name">Name: </label>
+<input id="chat-name" type="text" name="name">
+<br>
+</br>
+<label for="chat-comment">Comment: </label>
+<input id="chat-comment" type="text" name="comment">
+
+<button onclick="sendMessage()">Chat</button>
+
+<div id="chat"></div>
+
+<p><br></p>
+-->
+<h2>Number of page visits: {{visits}}</h2>
+
+{{names}}
+<br>
+{{img}}
+
+<script src="functions.js"></script>
+
+</body>
+</html>

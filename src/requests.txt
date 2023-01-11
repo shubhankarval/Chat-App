@@ -1,0 +1,143 @@
+'''
+POST /comment HTTP/1.1
+
+Host: localhost:8000
+
+Connection: keep-alive
+
+Content-Length: 231
+
+Cache-Control: max-age=0
+
+sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+Origin: http://localhost:8000
+
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHmJrtkh071Gie99r
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: same-origin
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Referer: http://localhost:8000/
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+Cookie: _xsrf=2|f620770c|a40b8cb16403f34f5e9138daa0c40a3d|1633707112; 
+username-localhost-8888="2|1:0|10:1634041826|23:username-localhost-8888|
+44:NzY4Mzg0OTZlNWEyNDA0ZDlhYjgxNjNiOTkwYmM3NzU=|
+32163dc73ed7864d6786e03b4bab41224cb9b7f98c4caab0514913c60e618972"
+
+
+
+------WebKitFormBoundaryMz4qpnm9SjqqTBZd
+
+Content-Disposition: form-data; name="name"
+
+
+
+shubhankar
+
+------WebKitFormBoundaryMz4qpnm9SjqqTBZd
+
+Content-Disposition: form-data; name="comment"
+
+
+
+lol
+
+------WebKitFormBoundaryMz4qpnm9SjqqTBZd
+
+Content-Disposition: form-data; name="xsrf_token"
+
+
+
+QenikaEjxkhEvMEKbDwEKxu
+
+------WebKitFormBoundaryMz4qpnm9SjqqTBZd--
+'''
+
+'''
+POST /image-upload HTTP/1.1
+
+Host: localhost:8000
+
+Connection: keep-alive
+
+Content-Length: 1842
+
+Cache-Control: max-age=0
+
+sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+Origin: http://localhost:8000
+
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarynfsRmKdiLYVuLSNo
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: same-origin
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Referer: http://localhost:8000/
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
+
+Cookie: _xsrf=2|f620770c|a40b8cb16403f34f5e9138daa0c40a3d|1633707112; 
+username-localhost-8888="2|1:0|10:1634041826|23:username-localhost-8888|
+44:NzY4Mzg0OTZlNWEyNDA0ZDlhYjgxNjNiOTkwYmM3NzU=|
+32163dc73ed7864d6786e03b4bab41224cb9b7f98c4caab0514913c60e618972"
+
+
+
+------WebKitFormBoundarynfsRmKdiLYVuLSNo
+
+Content-Disposition: form-data; name="upload"; filename="lab5_prelab.txt"
+
+Content-Type: text/plain
+
+
+
+.globl main
+
+------WebKitFormBoundarynfsRmKdiLYVuLSNo
+
+Content-Disposition: form-data; name="name"
+
+
+
+shubhankar
+
+------WebKitFormBoundarynfsRmKdiLYVuLSNo--
+'''
