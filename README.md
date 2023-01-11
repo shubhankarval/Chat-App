@@ -1,2 +1,2 @@
 # Chat-App
-A Python Chat App where users can communicate and share content with each other.
+A Python Chat App where users can communicate and share content with each other. Implemented a TCP socket server and an HTTP server which parsed raw HTTP requests and sent back appropriate responses. Applied RESTful API providing CRUD operations for users and offered security against HTML injection attacks using XSRF tokens. Maintained user's chat history using MongoDB database and utilized cookies to provide user authentication.
